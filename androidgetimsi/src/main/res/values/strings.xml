@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidGetIMSI</string>
+    <string name="get_phone_imsi">获取手机内部存储IMSI</string>
+    <string name="phone_imsi">手机存储IMSI：</string>
+    <string name="sd_imsi">SD存储IMSI：</string>
+    <string name="host_name">ADHostName</string>
+    <string name="clear_info">清除信息</string>
+
+</resources>

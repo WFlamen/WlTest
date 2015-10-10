@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.su2.ad.androidgetimsi.MainActivity" >
+
+    <Button
+        android:id="@+id/get_phone_imsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_phone_imsi"/>
+
+    <Button
+        android:id="@+id/clear_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_info" />
+    
+    <TextView
+        android:id="@+id/sd_imsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sd_imsi"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/phohe_imsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_imsi"
+        android:visibility="gone" />
+
+</LinearLayout>
