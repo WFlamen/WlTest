@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="130dip"
+    android:background="@drawable/bg_pw_cous_second_item_bg_1">
+
+    <LinearLayout
+        android:id="@+id/content_app_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/content_app_icon"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="10dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/content_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:text="@string/dafult_app_name"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/app_info_intro"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="bottom"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="10dip"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:layout_below="@id/content_app_layout"
+        android:singleLine="false"
+        android:lineSpacingMultiplier="1.3"
+        android:textSize="12dip"
+        android:text="应用简介"/>
+
+
+</RelativeLayout>

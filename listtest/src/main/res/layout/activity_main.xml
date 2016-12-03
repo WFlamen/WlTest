@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_show_custom_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示定制 list"/>
+
+
+    <Button
+        android:id="@+id/btn_show_normal_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示正常list"/>
+
+</LinearLayout>

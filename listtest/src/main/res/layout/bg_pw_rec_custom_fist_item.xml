@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="140dip"
+    android:layout_height="160dip"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_pw_cous_first_item_bg_1">
+
+    <ImageView
+        android:id="@+id/content_app_icon"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_marginTop="15dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/content_app_name"
+        android:layout_width="100dip"
+        android:layout_height="30dip"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="15dip"
+        android:gravity="center"
+        android:text="@string/dafult_app_name"/>
+
+    <Button
+        android:id="@+id/content_app_status"
+        android:layout_width="90dip"
+        android:layout_height="30dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/bg_pw_coustom_item_btn"
+        android:gravity="center"
+        android:textSize="15dip"
+        android:textColor="@color/white"
+        android:text="@string/download"/>
+
+</LinearLayout>
